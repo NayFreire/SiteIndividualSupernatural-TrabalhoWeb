@@ -40,7 +40,16 @@ header div#headerDiv{
     justify-content: center;
 }
 
+header div#headerDiv nav#menu{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
 header div#headerDiv nav#menu ul{
+    width: 100%;
     padding: 0px;
     list-style: none;
 }
@@ -50,7 +59,10 @@ header div#headerDiv nav#menu ul li{
 }
 
 header div#headerDiv nav#menu ul li a{
-    padding: 2px 90px;
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+    padding-left: 3%;
+    padding-right: 3%;
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -94,7 +106,7 @@ section#mainContent{
 }
 
 .textoHomeConfig{
-    font-size: 20pt;
+    font-size: 80%;
     text-indent:4em
 }
 
@@ -112,6 +124,6 @@ section#mainContent{
 }
 
 p{
-    padding: 10px;
+    /* padding: 10px; */
     line-height: 150%;
 }
