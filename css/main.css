@@ -12,8 +12,8 @@ html{
 /*---------- Início da configuração do Header ----------*/
 
 #bannerDiv{
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
     width: 100%;
     margin: 0 auto;
@@ -77,6 +77,7 @@ header div#headerDiv nav#menu ul li a:hover {
 
 /*---------- Fim da configuração do Header ----------*/
 
+/*---------- Início da configuração do Main ----------*/
 section#mainContent{
     margin-top: 10px;
     padding-top: 5px;
@@ -106,14 +107,14 @@ section#mainContent{
 }
 
 .textoHomeConfig{
-    font-size: 100%;
-    text-indent:4em
+    font-size: 95%;
+    text-indent:4em;
 }
 
 .imgHome{
     /* float: right; */
-    width: 15%;
-    height: 15%;
+    width: 20%;
+    height: 20%;
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
@@ -126,5 +127,41 @@ section#mainContent{
 
 p{
     padding: 10px;
-    line-height: 150%;
+    line-height: 140%;
 }
+
+/*---------- Fim da configuração do Main ----------*/
+
+/*---------- Início da configuração do Footer ----------*/
+footer{
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.78);
+}
+
+footer div#footerDiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logosDiv{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    background-color:transparent;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid;
+    border-radius: 100px;
+    border-color: white;
+}
+
+.logos{
+    width: 45px;
+    height: 45px;
+}
+
