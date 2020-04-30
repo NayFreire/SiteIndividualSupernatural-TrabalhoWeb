@@ -1,0 +1,198 @@
+html{
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background-image: url("../imagens/1025383.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+/*---------- Início da configuração do Header ----------*/
+
+#bannerDiv{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    margin-right: 5px;
+    background-color: rgba(0, 0, 0, 0.78);
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#logo{
+    width: 75%;
+    filter: invert();
+}
+
+header div#bannerDiv{
+    width: 100%;
+}
+
+header div#headerDiv{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.78);
+    height: 10%;
+    align-content: center;
+    justify-content: center;
+}
+
+/*---------- Início da configuração do Menu ----------*/
+
+nav{
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 0;
+    list-style:none; 
+    float:left; 
+}
+
+.menu li{
+    position:relative; 
+    float:left; 
+    text-align: center;
+}
+
+.menu li a{ 
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 25pt;
+    font-weight: bold; 
+    padding:5px 10px; 
+    display:block;
+}
+
+li.configSubmenu a{
+    text-align: center;
+    color: #fff;
+    font-size: 15pt;
+}
+
+li.configSubmenu:hover{
+    background:#fff; 
+    color:#413d3d;
+}
+
+.menu li a:hover, menu li:hover{
+    background:#fff; 
+    color:#413d3d;  
+}
+
+.menu li  ul{
+    padding: 0;
+    position:absolute; 
+    top:50px; 
+    left:-55%;
+    background-color:#413d3d; 
+    display:none;
+} 
+
+.menu li:hover ul, .menu li.over ul{
+    display:block;
+}
+
+.menu li ul li{
+    border:1px solid #c0c0c0; 
+    display:block; 
+    width:200px;
+}
+/*---------- Fim da configuração do Menu ----------*/
+/*---------- Fim da configuração do Header ----------*/
+
+/*---------- Início da configuração do Main ----------*/
+section#mainContent{
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.78);
+    font-size: 20pt;  
+    text-align: justify;   
+}
+
+.divDireita{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.divEsquerda{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.espacoTexto{
+    margin-left: 20px;
+}
+
+.textoHomeConfig{
+    font-size: 95%;
+    text-indent:4em;
+}
+
+.imgHome{
+    /* float: right; */
+    width: 20%;
+    height: 20%;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.txtEsquerda{
+    margin-right: 20px;
+}
+
+p{
+    padding: 10px;
+    line-height: 140%;
+}
+
+/*---------- Fim da configuração do Main ----------*/
+
+/*---------- Início da configuração do Footer ----------*/
+footer{
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.78);
+}
+
+footer div#footerDiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logosDiv{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    background-color:transparent;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid;
+    border-radius: 100px;
+    border-color: white;
+}
+
+.logos{
+    width: 45px;
+    height: 45px;
+}
+
