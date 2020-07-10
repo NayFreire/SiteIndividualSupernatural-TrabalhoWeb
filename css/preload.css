@@ -1,0 +1,14 @@
+html, body{
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+video#conteudo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
