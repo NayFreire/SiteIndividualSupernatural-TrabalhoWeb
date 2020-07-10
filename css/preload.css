@@ -1,8 +1,11 @@
 html, body{
+    box-sizing: border-box;
     margin: 0 auto;
     padding: 0;
     height: 100%;
     width: 100%;
+    color: white;
+    font-family: 'Special Elite', cursive;
 }
 
 video#conteudo{
@@ -11,4 +14,49 @@ video#conteudo{
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
+}
+
+#login{
+    font-size: 15pt;
+    padding: 20px;
+    background-color:rgba(0, 0, 0, 0.8);
+    position: absolute;
+    width: 25%;
+    height: 35%;
+    top: calc((100% - 35%)/2);
+    left: calc((100% - 25%)/2); /*cálculo para centralizar a div*/
+    border-radius: 20px;
+    /* border: white solid 2px; */
+}
+
+#loginDiv{
+    display: grid;
+    align-items: center;
+}
+
+label{
+    font-weight: bold;
+}
+
+#btnEnvia{
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 16pt;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-family: 'Special Elite', cursive;
+    padding: 5px;
+}
+
+a{
+    text-align: center;
+    margin: 0 auto;
+}
+#btnEnvia:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
 }

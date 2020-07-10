@@ -53,6 +53,7 @@ nav{
     padding: 0;
     list-style:none; 
     float:left; 
+    font-family: 'Special Elite', cursive;
 }
 
 .menu li{
@@ -119,6 +120,7 @@ section#mainContent{
     background-color: rgba(0, 0, 0, 0.78);
     font-size: 20pt;  
     text-align: justify;   
+    font-family: 'Lato', sans-serif;
 }
 
 .divDireita{
