@@ -23,7 +23,7 @@ html{
 }
 .imgSeason{
     margin-bottom: 20px;
-    width: 20%;
+    width: 30%;
     border-radius: 20px;
 }
 
@@ -34,4 +34,13 @@ html{
     border-radius: 20px;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.spoiler {
+	filter: blur(20px);
+	transition-property: -webkit-filter;
+	transition-duration: .4s;
+}
+.spoiler:hover, .spoiler:focus {
+	filter: blur(0px);
 }
