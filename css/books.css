@@ -1,0 +1,56 @@
+section#mainContent div#booksDiv div.bookContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    /* background-color: blue; */
+    margin-bottom: 10px;
+}
+
+section#mainContent div#booksDiv div.bookContent div.bookInformation{
+    /* background-color: chartreuse; */
+    margin-left: 15px;
+}
+
+section#mainContent div#booksDiv div.bookContent div.bookInformation h2{
+    margin: 0;
+    margin-left: 10px;
+}
+
+section#mainContent div#booksDiv div.bookContent div.bookInformation small{
+    font-size: 12pt;
+    margin: 0;
+    margin-left: 10px;
+}
+
+section#mainContent div#booksDiv div.bookContent div.bookInformation p.bookSinopse{
+    margin: 0;
+    font-size: 14pt;
+}
+
+section#mainContent div#booksDiv div.bookContent div.bookCover img{
+    width: 250px;
+    height: 390px;
+    /* background-color: aqua; */
+    
+}
+
+section#mainContent div#booksDiv div.bookContent div.bookInformation div.whereFind{
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    /* background-color: blueviolet; */
+}
+
+section#mainContent div#booksDiv div.bookContent div.bookInformation div.whereFind input.btnWhereFin{
+    width: 200px;
+    height: 50px;
+    font-size: 18pt;
+    /* background-color: hotpink; */
+    border: none;
+    cursor: pointer;
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+}
