@@ -82,11 +82,13 @@ li.configSubmenu a{
 li.configSubmenu:hover{
     background:#fff; 
     color:#413d3d;
+    transition: .5s ease-in-out; 
 }
 
 .menu li a:hover, menu li:hover{
     background:#fff; 
-    color:#413d3d;  
+    color:#413d3d;      
+    transition: .5s ease-in-out; 
 }
 
 .menu li  ul{
