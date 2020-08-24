@@ -1,7 +1,7 @@
 section#mainContent{
-    padding: 10px
 }
 section#mainContent div#playlists{
+    margin: 0;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
