@@ -29,7 +29,7 @@ video#conteudo{
     /* border: white solid 2px; */
 }
 
-#loginDiv{
+#loginDiv form{
     display: grid;
     align-items: center;
 }
@@ -37,6 +37,8 @@ video#conteudo{
 label{
     font-weight: bold;
 }
+
+
 
 #btnEnvia{
     text-align: center;
