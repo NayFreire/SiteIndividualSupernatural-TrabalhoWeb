@@ -1,0 +1,36 @@
+section#mainContent p.aboutAnime{
+    font-size: 14pt;
+    padding: 20px;
+    margin: 0;
+}
+
+section#mainContent div#videoTrailer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#mainContent h2{
+    margin-left: 20px;
+}
+
+section#mainContent div#animeImages{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+} 
+
+section#mainContent div#animeImages img.imgAnime{
+    width: 400px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+section#mainContent div#animeImages img.imgAnime:hover{
+    transition: .5s ease-in-out;
+    border-radius: 10px;
+    border: 1px solid white;
+}
